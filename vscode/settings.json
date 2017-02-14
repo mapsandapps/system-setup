@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.wrappingColumn": 0,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "window.zoomLevel": 1,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "white",
+            "backgroundColor": "#27ae60",
+            "overviewRulerColor": "white"
+        },{
+            "text": "FIXME:",
+            "color": "white",
+            "backgroundColor": "#c0392b",
+            "overviewRulerColor": "white"
+        },{
+            "text": "XXX:",
+            "color": "white",
+            "backgroundColor": "#c0392b",
+            "overviewRulerColor": "white"
+        }
+    ],
+    "vsicons.projectDetection.disableDetect": true
+  }
