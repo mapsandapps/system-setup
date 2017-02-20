@@ -1,0 +1,5 @@
+@-moz-document domain("stackoverflow.com") {
+#hot-network-questions {
+    display: none;
+}
+}
