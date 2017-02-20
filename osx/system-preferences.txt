@@ -1,0 +1,7 @@
+Desktop & Screen Saver -> Screen Saver -> Hot Corners -> [Top Right] -> Put Display to Sleep
+Dock -> Automatically hide and show the Dock -> [Checked]
+Security & Privacy -> General -> [Checked] Require password [immediately] after sleep or screen saver begins
+Keyboard -> Modifier Keys -> [Map Caps Lock to Control]
+Mouse -> [Unchecked] Scroll direction: Natural
+Sound -> [Checked] Show volume in menu bar
+Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
