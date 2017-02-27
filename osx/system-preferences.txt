@@ -4,5 +4,6 @@ Security & Privacy -> General -> [Checked] Require password [immediately] after 
 Notifications -> Do Not Disturb -> [Checked] When the display is sleeping
 Keyboard -> Modifier Keys -> [Map Caps Lock to Control]
 Mouse -> [Unchecked] Scroll direction: Natural
+Sound -> [Checked] Play feedback when volume is changed
 Sound -> [Checked] Show volume in menu bar
 Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
