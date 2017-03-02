@@ -8,3 +8,4 @@
 * Sass
 * swagger-doc-viewer
 * TODO Highlight
+* Vetur
