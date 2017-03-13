@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
@@ -12,12 +12,27 @@
             "backgroundColor": "#27ae60",
             "overviewRulerColor": "white"
         },{
+            "text": "TODO",
+            "color": "white",
+            "backgroundColor": "#27ae60",
+            "overviewRulerColor": "white"
+        },{
             "text": "FIXME:",
             "color": "white",
             "backgroundColor": "#c0392b",
             "overviewRulerColor": "white"
         },{
+            "text": "FIXME",
+            "color": "white",
+            "backgroundColor": "#c0392b",
+            "overviewRulerColor": "white"
+        },{
             "text": "XXX:",
+            "color": "white",
+            "backgroundColor": "#c0392b",
+            "overviewRulerColor": "white"
+        },{
+            "text": "XXX",
             "color": "white",
             "backgroundColor": "#c0392b",
             "overviewRulerColor": "white"
