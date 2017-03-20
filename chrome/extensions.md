@@ -2,5 +2,6 @@
 * OneTab
 * Postman
 * Postman Interceptor
+* React Developer Tools
 * Stylish - Custom themes for any website
 * Vue.js devtools
