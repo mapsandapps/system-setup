@@ -8,6 +8,7 @@ Keyboard -> Modifier Keys -> [Map Caps Lock to Control]
 Trackpad -> [Unchecked] Scroll direction: Natural
 Sound -> [Checked] Play feedback when volume is changed
 Sound -> [Checked] Show volume in menu bar
+Date & Time -> Clock -> [Checked] Show date
 Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
 
 In top bar, click battery then Show Percentage
