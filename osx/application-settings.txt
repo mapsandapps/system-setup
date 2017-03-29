@@ -3,3 +3,4 @@ Finder -> Preferences -> Sidebar -> [check and uncheck as desired]
 Finder -> Preferences -> Advanced -> [checked] Keep folders on top when sorting by name
 Finder -> Preferences -> Advanced -> When performing a search: -> Search the Current Folder
 Finder -> View -> Show Path Bar
+[After installing fish] Terminal -> Preferences -> General -> Shells open with -> [selected] Command -> `/usr/local/bin/fish`
