@@ -3,8 +3,9 @@ Dock -> Automatically hide and show the Dock -> [Checked]
 Mission Control -> [Unchecked] Automatically rearrange Spaces based on most recent use
 Security & Privacy -> General -> [Checked] Require password [immediately] after sleep or screen saver begins
 Notifications -> Do Not Disturb -> [Checked] When the display is sleeping
-Keyboard -> Customize Control Strip -> [Remove volume up/down, add screen lock]
-Keyboard -> Modifier Keys -> [Map Caps Lock to Control]
+Keyboard -> Keyboard -> Customize Control Strip -> [Remove volume up/down, add screen lock]
+Keyboard -> Keyboard -> Modifier Keys -> [Map Caps Lock to Control]
+Keyboard -> Text -> [Unchecked] Add period with double-space
 Trackpad -> [Unchecked] Scroll direction: Natural
 Sound -> [Checked] Play feedback when volume is changed
 Sound -> [Checked] Show volume in menu bar
