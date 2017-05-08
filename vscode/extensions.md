@@ -4,7 +4,6 @@
 * JSON Tools
 * Lorem ipsum
 * Mustard Theme
-* Prettify JSON
 * Sass
 * swagger-doc-viewer
 * TODO Highlight
