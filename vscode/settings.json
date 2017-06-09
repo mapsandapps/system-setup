@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "boundary",
     "editor.tabSize": 2,
