@@ -39,8 +39,7 @@
             "overviewRulerColor": "white"
         }
     ],
-    "vsicons.projectDetection.disableDetect": true,
-    "workbench.experimental.colorCustomizations": {
-        "statusBarBackground": "#303030"
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#303030"
     }
   }
