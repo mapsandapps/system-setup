@@ -7,6 +7,7 @@ iTerm2:
     iTerm2 -> Preferences -> Profiles -> Advanced -> Triggers -> Edit
         FIXME[:]* | Highlight Text | Text white | Background c0392b
         TODO[:]* | Highlight Text | Text white | Background 27ae60
+        console.[A-Za-z]* | Highlight Text | Text white | Background f7c526
 
 Powerline-patched fonts:
 
