@@ -1,11 +1,13 @@
-// Place your settings in this file to overwrite the default settings
 {
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "boundary",
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 11,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "window.zoomLevel": 1,
+    // for use with the TODO highlight extension
     "todohighlight.keywords": [
         {
             "text": "TODO:",
@@ -32,13 +34,10 @@
             "color": "white",
             "backgroundColor": "#c0392b",
             "overviewRulerColor": "white"
-        },{
-            "text": "XXX",
-            "color": "white",
-            "backgroundColor": "#c0392b",
-            "overviewRulerColor": "white"
         }
     ],
+    "workbench.colorTheme": "Mustard",
+    "workbench.iconTheme": "file-icons-colourless",
     "workbench.colorCustomizations": {
         "statusBar.background": "#303030"
     }
