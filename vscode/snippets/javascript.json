@@ -1,0 +1,53 @@
+{
+	"Component Component": {
+		"prefix": "component",
+		"body": [
+			"import { $1Controller } from './$2.controller.js';",
+			"import $1Template from './$2.html';",
+			"import './$2.scss';",
+			"",
+			"export const $1Component = {",
+			"  template: $1Template,",
+			"  controller: $1Controller,",
+			"  bindings: {",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"Component Controller": {
+		"prefix": "component controller",
+		"body": [
+			"export class $1Controller {",
+			"  constructor() {",
+			"    'ngInject';",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"Component Spec": {
+		"prefix": "component spec",
+		"body": [
+			"describe('$1Component', function() {",
+			"  beforeEach(angular.mock.module('app'));",
+			"",
+			"  var $1;",
+			"  beforeEach(inject(function(\\$componentController) {",
+			"    $1 = \\$componentController('$2');",
+			"  }));",
+			"",
+			"  it(\"$3\", function() {",
+			"    $4",
+			"  });",
+			"});",
+			""
+		]
+	},
+	"Lodash Import": {
+		"prefix": "lodash",
+		"body": [
+			"import $1 from 'lodash/$1';"
+		]
+	}
+}
