@@ -1,0 +1,25 @@
+{
+	"Lodash Import": {
+		"prefix": "lodash",
+		"body": [
+			"import $1 from 'lodash/$1';"
+		]
+	},
+	"Vue Component": {
+		"prefix": "vue component",
+		"body":[
+			"<template>",
+			"  ",
+			"</template>",
+			"",
+			"<script>",
+			"  ",
+			"</script>",
+			"",
+			"<style lang=\"scss\" scoped>",
+			"  ",
+			"</style>",
+			""
+		]
+	}
+}
