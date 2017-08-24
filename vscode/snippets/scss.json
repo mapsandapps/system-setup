@@ -1,0 +1,17 @@
+{
+	"Component Sass": {
+		"prefix": "component sass",
+		"body": [
+			"$1 {",
+			"}",
+			""
+		]
+	},
+	"Theme": {
+		"prefix": "theme",
+		"body":[
+			".theme-light & { $1: $2; }",
+			".theme-dark & { $1: $3; }"
+		]
+	}
+}
