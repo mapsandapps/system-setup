@@ -8,6 +8,8 @@ iTerm2:
         FIXME[:]* | Highlight Text | Text white | Background c0392b
         TODO[:]* | Highlight Text | Text white | Background 27ae60
         console.[A-Za-z]* | Highlight Text | Text white | Background f7c526
+        webpack: Compiled successfully. | Post Notification | UI ready | [Checked] Instant
+        0.0.0.0:3000 | Post Notification | API ready | [Checked] Instant
 
 Powerline-patched fonts:
 
