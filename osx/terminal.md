@@ -10,6 +10,8 @@ iTerm2:
         console.[A-Za-z]* | Highlight Text | Text white | Background f7c526
         webpack: Compiled successfully. | Post Notification | UI ready | [Checked] Instant
         0.0.0.0:3000 | Post Notification | API ready | [Checked] Instant
+        compose_ui_1 exited with code 1 | Post Notification | ERROR: UI CRASHED | [Checked] Instant
+        webpack: Failed to compile. | Post Notification | ERROR: UI FAILED TO COMPILE | [Checked] Instant
 
 Powerline-patched fonts:
 
