@@ -6,7 +6,8 @@ Notifications -> Do Not Disturb -> [Checked] When the display is sleeping
 Keyboard -> Keyboard -> Customize Control Strip -> [Remove volume up/down, add screen lock]
 Keyboard -> Keyboard -> Modifier Keys -> [Map Caps Lock to Control]
 Keyboard -> Text -> [Unchecked] Add period with double-space
-Trackpad -> [Unchecked] Scroll direction: Natural
+Trackpad -> Point & Click -> [Unchecked] Look up & data detectors
+Trackpad -> Scroll & Zoom -> [Unchecked] Scroll direction: Natural
 Sound -> [Checked] Play feedback when volume is changed
 Sound -> [Checked] Show volume in menu bar
 Date & Time -> Clock -> [Checked] Show date
