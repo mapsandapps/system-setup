@@ -6,6 +6,7 @@
     "editor.fontSize": 11,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 1,
     // for use with the TODO highlight extension
     "todohighlight.keywords": [
