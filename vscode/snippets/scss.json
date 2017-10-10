@@ -9,9 +9,17 @@
 	},
 	"Theme": {
 		"prefix": "theme",
-		"body":[
+		"body": [
 			".theme-light & { $1: $2; }",
 			".theme-dark & { $1: $3; }"
+		]
+	},
+	"Vendor": {
+		"prefix": "vendor",
+		"body": [
+			"-webkit-$1: $2;",
+			"-moz-$1: $2;",
+			"$1: $2;"
 		]
 	}
 }
