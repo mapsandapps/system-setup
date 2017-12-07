@@ -12,6 +12,8 @@ iTerm2:
         0.0.0.0:3000 | Post Notification | API ready | [Checked] Instant
         compose_ui_1 exited with code 1 | Post Notification | ERROR: UI CRASHED | [Checked] Instant
         webpack: Failed to compile. | Post Notification | ERROR: UI FAILED TO COMPILE | [Checked] Instant
+    iTerm2 -> Preferences -> Keys -> [Add global shortcut key] -> Keyboard shortcut: Command Delete | Action: Send Hex Codes: 0x15
+    iTerm2 -> Preferences -> Keys -> [Add global shortcut key] -> Keyboard shortcut: Alt Delete | Action: Send Hex Codes: 0x17
 
 Powerline-patched fonts:
 
