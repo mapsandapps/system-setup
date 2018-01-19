@@ -3,6 +3,8 @@ Dock -> Automatically hide and show the Dock -> [Checked]
 Mission Control -> [Unchecked] Automatically rearrange Spaces based on most recent use
 Security & Privacy -> General -> [Checked] Require password [immediately] after sleep or screen saver begins
 Notifications -> Do Not Disturb -> [Checked] When the display is sleeping
+Notifications -> Do Not Disturb -> [Checked] When mirroring to TVs and projectors
+Notifications -> Slack [and other apps] -> [Unchecked] Show notifications on lock screen
 Keyboard -> Keyboard -> Customize Control Strip -> [Remove volume up/down, add screen lock]
 Keyboard -> Keyboard -> Modifier Keys -> [Map Caps Lock to Control]
 Keyboard -> Text -> [Unchecked] Add period with double-space
