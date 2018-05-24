@@ -8,6 +8,7 @@
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "files.trimTrailingWhitespace": true,
+    "window.title": "${activeEditorLong}${separator}${rootName}",
     "window.zoomLevel": 1,
     // for use with the TODO highlight extension
     "todohighlight.keywords": [
@@ -36,11 +37,34 @@
             "color": "white",
             "backgroundColor": "#c0392b",
             "overviewRulerColor": "white"
+        },{
+            "text": "NOTE:",
+            "color": "white",
+            "backgroundColor": "#2980b9",
+            "overviewRulerColor": "white"
+        },{
+            "text": "NOTE",
+            "color": "white",
+            "backgroundColor": "#2980b9",
+            "overviewRulerColor": "white"
         }
     ],
     "workbench.colorTheme": "Mustard",
     "workbench.iconTheme": "file-icons-colourless",
     "workbench.colorCustomizations": {
         "statusBar.background": "#303030"
-    }
+    },
+    "extensions.ignoreRecommendations": false,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "#f7c527",
+            "#ec691e",
+            "#a1d7f2"
+        ],
+        "Red"
+    ],
+    "bracketPairColorizer.contextualParsing": true
   }
