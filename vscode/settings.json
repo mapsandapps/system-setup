@@ -1,5 +1,6 @@
 {
     "editor.find.seedSearchStringFromSelection": false,
+    "editor.snippetSuggestions": "top",
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "boundary",
@@ -7,6 +8,11 @@
     "editor.fontSize": 11,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
     "files.trimTrailingWhitespace": true,
     "window.title": "${activeEditorLong}${separator}${rootName}",
     "window.zoomLevel": 1,
@@ -50,10 +56,11 @@
         }
     ],
     "workbench.colorTheme": "Mustard",
-    "workbench.iconTheme": "file-icons-colourless",
+    "workbench.iconTheme": "file-icons",
     "workbench.colorCustomizations": {
         "statusBar.background": "#303030"
     },
+    "workbench.sideBar.location": "right",
     "extensions.ignoreRecommendations": false,
     "bracketPairColorizer.consecutivePairColors": [
         "()",
@@ -66,5 +73,7 @@
         ],
         "Red"
     ],
-    "bracketPairColorizer.contextualParsing": true
-  }
+    "files.associations": {
+        "*.vue": "vue"
+    }
+}
