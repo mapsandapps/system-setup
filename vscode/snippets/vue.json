@@ -1,25 +1,87 @@
 {
-	"Lodash Import": {
-		"prefix": "lodash",
-		"body": [
-			"import $1 from 'lodash/$1';"
-		]
-	},
 	"Vue Component": {
 		"prefix": "vue component",
-		"body":[
+		"body": [
 			"<template>",
-			"  ",
+			"<div>",
+			"</div>",
 			"</template>",
 			"",
 			"<script>",
-			"  ",
+			"export default {",
+			"  name: '$1',",
+			"  components: {",
+			"  },",
+			"  props: {",
+			"  },",
+			"  data() {",
+			"    return {",
+			"    };",
+			"  },",
+			"  computed: {",
+			"  },",
+			"  methods: {",
+			"  },",
+			"  mounted() {",
+			"  }",
+			"};",
 			"</script>",
 			"",
 			"<style lang=\"scss\" scoped>",
-			"  ",
 			"</style>",
 			""
+		]
+	},
+	"Import": {
+		"prefix": "import",
+		"body": [
+			"import $1 from './$1.vue'"
+		]
+	},
+	"Import Absolute": {
+		"prefix": "import absolute",
+		"body": [
+			"import $1 from '@/components/core/$2'$1"
+		]
+	},
+	"Lodash Import": {
+		"prefix": "lodash",
+		"body": [
+			"import $1 from 'lodash/$1'"
+		]
+	},
+	"Bulma Material": {
+		"prefix": "bulma material",
+		"body": [
+			"<div class=\"control\">",
+			"  <$1 class=\"$1 is-green\">",
+			"  <label class=\"label is-green\">$2</label>",
+			"  <i class=\"bar is-green\"></i>",
+			"  <span class=\"help\">$3</span>",
+			"</div>"
+		]
+	},
+	"Prop": {
+		"prefix": "prop",
+		"body": [
+			"    propName: {",
+			"      type: [String, Number],",
+			"      required: true",
+			"    }"
+		]
+	},
+	"Arrow Function": {
+		"prefix": "arrow function",
+		"body": [
+			"($1) => {",
+			"  $2",
+			"}"
+		]
+	},
+	"Stringify Console": {
+		"prefix": "stringify console",
+		"body": [
+			"console.log(JSON.stringify($1));$2"
 		]
 	}
 }
