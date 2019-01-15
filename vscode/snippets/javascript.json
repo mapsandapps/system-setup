@@ -44,10 +44,137 @@
 			""
 		]
 	},
+	"Module Spec": {
+		"prefix": "module spec",
+		"body": [
+			"import moxios from 'moxios';",
+			"",
+			"import http from '@/core/http';",
+			"import $1 from '@/store/modules/$1';",
+			"const { actions } = $1;",
+			"",
+			"describe('settings $1 store', () => {",
+			"  beforeEach(() => {",
+			"    moxios.install(http);",
+			"  });",
+			"",
+			"  afterEach(() => {",
+			"    moxios.uninstall();",
+			"  });",
+			"",
+			"  describe('actions', () => {",
+			"    describe('$2', () => {",
+			"      $3",
+			"    });",
+			"  });",
+			"});",
+			""
+		]
+	},
 	"Lodash Import": {
 		"prefix": "lodash",
 		"body": [
 			"import $1 from 'lodash/$1';"
+		]
+	},
+	"Import Vue Component": {
+		"prefix": "import vue component",
+		"body": [
+			"import $1 from './vue/$1.vue';",
+			"Vue.component('$1', $1);"
+		]
+	},
+	"Arrow Function": {
+		"prefix": "arrow function",
+		"body": [
+			"($1) => {",
+			"  $2",
+			"}"
+		]
+	},
+	"Old-Timey Function": {
+		"prefix": "function",
+		"body": [
+			"function($1) {",
+			"  $2",
+			"}"
+		]
+	},
+	"API Query Spec": {
+		"prefix": "api query spec",
+		"body": [
+      "it('queries the API', done => {",
+      "  const commit = sinon.spy();",
+      "  actions.$1({ commit }$4);",
+			"",
+      "  moxios.wait(() => {",
+			"    let request = moxios.requests.mostRecent();",
+			"    expect(request.config.method).to.equal('$2');",
+      "    expect(request.url).to.contain('/api/$3');",
+      "    done();",
+      "  });",
+      "});",
+		]
+	},
+	"ORM Spec": {
+		"prefix": "orm spec",
+		"body": [
+      "it('saves the returned $1 in the state', done => {",
+      "  const sample$2 = {",
+      "    data: {",
+      "      id: 0",
+      "    }",
+      "  };",
+      "  moxios.stubRequest('/api/$3', {",
+      "    status: 200$5,",
+      "    response: sample$2",
+      "  });",
+			"",
+      "  const commit = sinon.spy();",
+			"",
+      "  actions.$4({ commit }$6);",
+			"",
+      "  moxios.wait(() => {",
+      "    expect(commit.calledWith('orm/add')).to.equal(true);",
+      "    done();",
+			"  });",
+			"});"
+		]
+	},
+	"Phaser File": {
+		"prefix": "phaser file",
+		"body": [
+			"var $1 = new Phaser.Class({",
+			"  Extends: $2,",
+			"  ",
+			"  initialize: function $1($3) {",
+			"    $4",
+			"  }",
+			"});",
+			""
+		]
+	},
+	"Stringify Console": {
+		"prefix": "stringify console",
+		"body": [
+			"console.log(JSON.stringify($1));$2"
+		]
+	},
+	"Vue Store": {
+		"prefix": "store",
+		"body": [
+			"export default {",
+			"  namespaced: true,",
+			"  state: {",
+			"  },",
+			"  actions: {",
+			"  },",
+			"  getters: {",
+			"  },",
+			"  mutations: {",
+			"  }",
+			"};",
+			""
 		]
 	}
 }
