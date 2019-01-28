@@ -4,7 +4,7 @@
         bll = branch --sort=authordate
         blr = "!git fetch; git branch -r --sort=authordate --no-merged master | head -10"
         co = "!git fetch; git checkout"
-        lg = log --oneline --decorate --graph
+        lg = log --pretty=format:'%C(yellow)%h %Cred%ad %C(cyan)%an%Cgreen%d %Creset%s' --date=format:'%b %d'
         sl = "!git stash list --date=local --since=\"7 days ago\""
         st = "!git fetch; git status"
         ds = diff --staged
