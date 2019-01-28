@@ -5,7 +5,6 @@
 * Chrome
 * 1Password
 * VS Code
-* SourceTree
 * Slack
 
 ## Notes
