@@ -1,3 +1,4 @@
+Desktop & Screen Saver -> Screen Saver -> Start after: Never
 Desktop & Screen Saver -> Screen Saver -> Hot Corners -> [Top Right] -> Put Display to Sleep
 Dock -> Automatically hide and show the Dock -> [Checked]
 Mission Control -> [Unchecked] Automatically rearrange Spaces based on most recent use
@@ -6,8 +7,8 @@ Notifications -> Do Not Disturb -> [Checked] When the display is sleeping
 Notifications -> Do Not Disturb -> [Checked] When mirroring to TVs and projectors
 Notifications -> iTerm -> [Unchecked] Play sound for notifications
 Notifications -> Slack [and other apps] -> [Unchecked] Show notifications on lock screen
-Keyboard -> Keyboard -> Customize Control Strip -> [Remove volume up/down, add screen lock]
-Keyboard -> Keyboard -> Modifier Keys -> [Map Caps Lock to Control]
+Keyboard -> Keyboard -> Customize Touch Bar -> [Remove volume up/down, remove Siri]
+Keyboard -> Keyboard -> Modifier Keys -> [Map Caps Lock to Escape]
 Keyboard -> Text -> [Unchecked] Add period with double-space
 Keyboard -> Shortcuts -> Accessibility -> Invert colors -> [Check and map to command-Q]
 Trackpad -> Point & Click -> [Unchecked] Look up & data detectors
