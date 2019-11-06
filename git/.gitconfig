@@ -1,10 +1,9 @@
-
 [alias]
         bl = "!git fetch && git branch -a --sort=authordate --color"
-        bll = branch --sort=authordate
-        blr = "!git fetch; git branch -r --sort=authordate --no-merged master | head -10"
+        bll = for-each-ref --sort=-committerdate refs/heads/ --format='%(color:$
+        blr = "!git fetch; git branch -r --sort=authordate --no-merged master |$
         co = "!git fetch; git checkout"
-        lg = log --pretty=format:'%C(yellow)%h %Cred%ad %C(cyan)%an%Cgreen%d %Creset%s' --date=format:'%b %d'
+        lg = log --pretty=format:'%C(yellow)%h %Cred%ad %C(cyan)%an%Cgreen%d %C$
         sl = "!git stash list --date=local --since=\"7 days ago\""
         st = "!git fetch; git status"
         ds = diff --staged
