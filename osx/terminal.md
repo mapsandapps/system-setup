@@ -8,8 +8,9 @@ iTerm2:
         FIXME[:]* | Highlight Text | Text white | Background c0392b
         TODO[:]* | Highlight Text | Text white | Background 27ae60
         console.[A-Za-z]* | Highlight Text | Text white | Background f7c526
-        webpack: Compiled successfully. | Post Notification | UI ready | [Checked] Instant
-        0.0.0.0:3000 | Post Notification | API ready | [Checked] Instant
+        webpack: Compiled successfully. | Post Notification | UI ready ✅ | [Checked] Instant
+        0.0.0.0:3000 | Post Notification | API ready ✅ | [Checked] Instant
+        Storybook [0-9.]* started | Post Notification | Storybook ready 🎨 | [Checked] Instant
         compose_ui_1 exited with code 1 | Post Notification | ERROR: UI CRASHED | [Checked] Instant
         webpack: Failed to compile. | Post Notification | ERROR: UI FAILED TO COMPILE | [Checked] Instant
         Tests completed successfully | Post Notification | Tests passed ✅ | [Checked] Instant
