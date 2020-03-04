@@ -1,0 +1,20 @@
+{
+  "Component": {
+    "prefix": "component",
+    "body": [
+      "import React, { FunctionComponent } from 'react'",
+      "",
+      "type $1Props = {",
+      "  $2: string",
+      "}",
+      "",
+      "export const $1: FunctionComponent<$1Props> = ({ $2 }) => {",
+      "  ",
+      "  return (",
+      "    $3",
+      "  )",
+      "}",
+      ""
+    ]
+  }
+}
