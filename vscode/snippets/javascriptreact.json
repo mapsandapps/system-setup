@@ -1,0 +1,101 @@
+{
+	"JSX Init": {
+		"prefix": "JSX init",
+		"body": [
+			"import PropTypes from 'prop-types'",
+			"import React from 'react'",
+			"",
+			"const $1 = ({ $2 }) => {",
+			"  return (",
+			"    $3",
+			"  )",
+			"}",
+			"",
+			"$1.propTypes = {",
+			"  $4",
+			"}",
+			"",
+			"export { $1 }",
+			""
+		]
+	},
+	"Spec": {
+		"prefix": "spec",
+		"body": [
+			"describe('$1', () => {",
+			"  beforeEach(() => {",
+			"    cy.server()",
+			"  })",
+			"",
+			"  describe('$2'), () => {",
+			"    it('$3', () => {",
+			"      cy.visit(\"/#/$4\")",
+			"        .contains('$5')",
+			"    })",
+			"  })",
+			"})",
+			""
+		]
+	},
+	"Arrow Function": {
+		"prefix": "arrow function",
+		"body": [
+			"($1) => {",
+			"  $2",
+			"}"
+		]
+	},
+	"Component": {
+		"prefix": "component",
+		"body": [
+			"const $1 = ({ $2 }) => {",
+			"  return (",
+			"    $3",
+			"  )",
+			"}",
+			"",
+			"$1.propTypes = {",
+			"  $4",
+			"}",
+			""
+		]
+	},
+	"Panel": {
+		"prefix": "panel",
+		"body": [
+			"import { Form, Panel } from '@packages/design-system'",
+			"import { InputGroup } from '../common/input-group'",
+      "<Panel>",
+      "  <Panel.Heading>",
+      "    <Panel.Title>$1</Panel.Title>",
+      "  </Panel.Heading>",
+			"  <Form>",
+
+			"    <InputGroup",
+			"       label=\"$2\"",
+			"       description=\"$3\">",
+			"      $4",
+			"    </InputGroup>",
+      "  </Form>",
+      "  <Panel.Body>",
+			"    $3",
+      "  </Panel.Body>",
+      "</Panel>",
+		]
+	},
+	"Story": {
+		"prefix": "storybook story",
+		"body": [
+			"import React from 'react'",
+			"",
+			"import { storiesOf } from '@storybook/react'",
+			"import { ${1:component} } from '@packages/dashboard/src/${2:path}'",
+			"",
+			"storiesOf('Dashboard|Components/$2', module)",
+			"  .add('$3', () => (",
+			"    $4",
+			"  ))",
+			""
+		]
+	}
+}
