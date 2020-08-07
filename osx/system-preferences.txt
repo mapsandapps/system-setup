@@ -13,6 +13,7 @@ Keyboard -> Text -> [Unchecked] Correct spelling automatically
 Keyboard -> Text -> [Unchecked] Capitalize words automatically
 Keyboard -> Text -> [Unchecked] Add period with double-space
 Keyboard -> Shortcuts -> Accessibility -> Invert colors -> [Check and map to command-Q]
+Keyboard -> Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between: All controls
 Mouse -> [Unchecked] Scroll direction: Natural
 Trackpad -> Point & Click -> [Unchecked] Look up & data detectors
 Trackpad -> Scroll & Zoom -> [Unchecked] Scroll direction: Natural
