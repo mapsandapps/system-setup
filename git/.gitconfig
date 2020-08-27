@@ -21,3 +21,5 @@
         prune = true
 [includeIf "gitdir:Shawn/"]
         path = ~/.gitconfig.personal
+[init]
+        defaultBranch = main
