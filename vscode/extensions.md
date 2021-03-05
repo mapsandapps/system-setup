@@ -1,14 +1,9 @@
-* Bracket Pair Colorizer
 * change-case
 * ESLint
-* file-icons ("Preferences: File Icon Theme" > "File Icons (Colourless)"
 * Git Blame
-* JSON Schema Validator
+* Insert GUID
 * JSON Tools
 * Lorem ipsum
-* Mustard Theme
 * Sass
-* swagger-doc-viewer
-* TODO Highlight
-* Vetur
-* VS Live Share
+* vscode-faker
+* vscode-input-sequence
