@@ -8,12 +8,59 @@
       "  $2: string",
       "}",
       "",
-      "export const $1: FunctionComponent<$1Props> = ({ $2 }) => {",
+      "export const $1: FunctionComponent<$1Props> = ({",
+      "  $2",
+      "}) => {",
       "  ",
       "  return (",
       "    $3",
       "  )",
       "}",
+      ""
+    ]
+  },
+  "Story TSX": {
+    "prefix": "story tsx",
+    "body": [
+      "import { SidebarStateProvider } from '@frontend/dashboard/src/navs/sidebarService'",
+      "import { $1 } from '@frontend/dashboard/src/$2/$1'",
+      "import React from 'react'",
+      "import { addApolloProvider } from '@frontend/storybook/decorators/addApolloProvider'",
+      "",
+      "export const $4Component = addApolloProvider(",
+      "  () => (",
+      "    <SidebarStateProvider>",
+      "      <$1 projectId=\"abcd\" />",
+      "    </SidebarStateProvider>",
+      "  ),",
+      "  {",
+      "    query: {",
+      "      $3: {",
+      "        project: {",
+      "          runs: {",
+      "            nodes: [{}, {}, {}],",
+      "          },",
+      "        },",
+      "      },",
+      "    },",
+      "  }",
+      ")",
+    ]
+  },
+  "Icon": {
+    "prefix": "icon - cypress",
+    "body": [
+      "export const $1Icon: FunctionComponent<CyIconProps> = (props) => (",
+      "  <CyIconWrapper {...props} name=\"$2\">",
+      "    $3",
+      "  </CyIconWrapper>",
+      ")"
+    ]
+  },
+  "Feature flags": {
+    "prefix": "feature flags",
+    "body": [
+      "import { features } from '~/lib/feature-flags'",
       ""
     ]
   }
