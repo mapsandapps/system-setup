@@ -1,79 +1,27 @@
 {
-    "editor.find.seedSearchStringFromSelection": false,
-    "editor.snippetSuggestions": "top",
-    "editor.minimap.enabled": false,
-    "editor.wordWrap": "on",
-    "editor.renderWhitespace": "boundary",
-    "editor.fontFamily": "Hack",
-    "editor.fontSize": 11,
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": false,
-        "strings": true
-    },
-    "files.trimTrailingWhitespace": true,
-    "window.title": "${activeEditorLong}${separator}${rootName}",
-    "window.zoomLevel": 1,
-    // for use with the TODO highlight extension
-    "todohighlight.keywords": [
-        {
-            "text": "TODO:",
-            "color": "white",
-            "backgroundColor": "#27ae60",
-            "overviewRulerColor": "white"
-        },{
-            "text": "TODO",
-            "color": "white",
-            "backgroundColor": "#27ae60",
-            "overviewRulerColor": "white"
-        },{
-            "text": "FIXME:",
-            "color": "white",
-            "backgroundColor": "#c0392b",
-            "overviewRulerColor": "white"
-        },{
-            "text": "FIXME",
-            "color": "white",
-            "backgroundColor": "#c0392b",
-            "overviewRulerColor": "white"
-        },{
-            "text": "XXX:",
-            "color": "white",
-            "backgroundColor": "#c0392b",
-            "overviewRulerColor": "white"
-        },{
-            "text": "NOTE:",
-            "color": "white",
-            "backgroundColor": "#2980b9",
-            "overviewRulerColor": "white"
-        },{
-            "text": "NOTE",
-            "color": "white",
-            "backgroundColor": "#2980b9",
-            "overviewRulerColor": "white"
-        }
-    ],
-    "workbench.colorTheme": "Mustard",
-    "workbench.iconTheme": "file-icons",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#303030"
-    },
-    "workbench.sideBar.location": "right",
-    "extensions.ignoreRecommendations": false,
-    "bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [
-            "#f7c527",
-            "#ec691e",
-            "#a1d7f2"
-        ],
-        "Red"
-    ],
-    "files.associations": {
-        "*.vue": "vue"
-    }
+  "workbench.colorTheme": "Revelation Light (rainglow)",
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "on",
+  "files.trimTrailingWhitespace": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "workbench.settings.editor": "json",
+  "editor.find.seedSearchStringFromSelection": false,
+  "editor.snippetSuggestions": "top",
+  "editor.renderWhitespace": "boundary",
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+  },
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "workbench.sideBar.location": "right",
+  "extensions.ignoreRecommendations": false,
+  "files.associations": {
+      "*.vue": "vue"
+  }
 }
