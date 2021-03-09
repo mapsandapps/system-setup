@@ -23,5 +23,6 @@
   "extensions.ignoreRecommendations": false,
   "files.associations": {
       "*.vue": "vue"
-  }
+  },
+  "workbench.editor.limit.value": 5
 }
