@@ -1,28 +1,31 @@
 {
-  "workbench.colorTheme": "Revelation Light (rainglow)",
-  "editor.minimap.enabled": false,
-  "window.zoomLevel": 1,
-  "editor.wordWrap": "on",
-  "files.trimTrailingWhitespace": true,
+  "editor.find.seedSearchStringFromSelection": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
-  "workbench.settings.editor": "json",
-  "editor.find.seedSearchStringFromSelection": false,
-  "editor.snippetSuggestions": "top",
-  "editor.renderWhitespace": "boundary",
   "editor.fontSize": 13,
-  "editor.tabSize": 2,
   "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
       "other": true,
       "comments": false,
       "strings": true
   },
-  "window.title": "${activeEditorLong}${separator}${rootName}",
-  "workbench.sideBar.location": "right",
+  "editor.renderWhitespace": "boundary",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
   "extensions.ignoreRecommendations": false,
   "files.associations": {
       "*.vue": "vue"
   },
-  "workbench.editor.limit.value": 5
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorTheme": "Revelation Light (rainglow)",
+  "workbench.editor.closeEmptyGroups": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "window.zoomLevel": 1
 }
