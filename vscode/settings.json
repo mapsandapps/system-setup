@@ -1,14 +1,37 @@
 {
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.find.seedSearchStringFromSelection": false,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
+  "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
-      "other": true,
-      "comments": false,
-      "strings": true
+    "other": true,
+    "comments": false,
+    "strings": true
   },
   "editor.renderWhitespace": "boundary",
   "editor.snippetSuggestions": "top",
@@ -16,10 +39,10 @@
   "editor.wordWrap": "on",
   "extensions.ignoreRecommendations": false,
   "files.associations": {
-      "*.vue": "vue"
+    "*.vue": "vue"
   },
   "files.trimTrailingWhitespace": true,
-  "workbench.colorTheme": "Revelation Light (rainglow)",
+  "workbench.colorTheme": "Revelation (rainglow)",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
@@ -27,5 +50,29 @@
   "workbench.settings.editor": "json",
   "workbench.sideBar.location": "right",
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.editor.untitled.hint": "hidden",
+  "vsnotes.defaultNoteName": "notes",
+  "vsnotes.defaultNotePath": "/Users/shawntaylor/Development/notes",
+  "vsnotes.defaultNoteTitle": "{dt}_{title}.{ext}",
+  "vsnotes.tokens": [
+    {
+      "type": "datetime",
+      "token": "{dt}",
+      "format": "YYYYMMDD",
+      "description": "Insert formatted datetime."
+    },
+    {
+      "type": "title",
+      "token": "{title}",
+      "description": "Insert note title from input box.",
+      "format": "Untitled"
+    },
+    {
+      "type": "extension",
+      "token": "{ext}",
+      "description": "Insert file vsnotes.",
+      "format": "md"
+    }
+  ]
 }
