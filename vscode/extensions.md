@@ -1,9 +1,11 @@
 * change-case
-* ESLint
 * Git Blame
+* indent-rainbow
 * Insert GUID
 * JSON Tools
 * Lorem ipsum
-* Sass
+* Prettier - Code formatter
+* TODO Highlight
 * vscode-faker
 * vscode-input-sequence
+* VSNotes
