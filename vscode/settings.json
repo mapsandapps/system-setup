@@ -1,17 +1,12 @@
 {
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.bracketPairColorization.enabled": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[javascriptreact]": {
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[javascript]": {
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
@@ -19,6 +14,12 @@
   },
   "[markdown]": {
     "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.find.seedSearchStringFromSelection": false,
@@ -50,7 +51,6 @@
   "workbench.settings.editor": "json",
   "workbench.sideBar.location": "right",
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": 1,
   "workbench.editor.untitled.hint": "hidden",
   "vsnotes.defaultNoteName": "notes",
   "vsnotes.defaultNotePath": "/Users/shawntaylor/Development/notes",
@@ -74,5 +74,7 @@
       "description": "Insert file vsnotes.",
       "format": "md"
     }
-  ]
+  ],
+  "window.zoomLevel": 1,
+  "diffEditor.ignoreTrimWhitespace": false
 }
