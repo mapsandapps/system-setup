@@ -12,3 +12,5 @@ Slack
 Via terminal:
 brew
 fish
+nvm
+yarn
