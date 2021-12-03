@@ -19,5 +19,6 @@ Keyboard -> Shortcuts -> [Checked] Use keyboard navigation to move focus between
 Trackpad -> Point & Click -> [Unchecked] Look up & data detectors
 Trackpad -> Scroll & Zoom -> [Unchecked] Scroll direction: Natural
 Mouse -> [Unchecked] Scroll direction: Natural
+Displays -> [Unchecked] Automatically adjust brightness
 Sound -> [Checked] Play feedback when volume is changed
 Sound -> [Unchecked] Show Sound in menu bar
