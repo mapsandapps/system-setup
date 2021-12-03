@@ -1,6 +1,8 @@
 Via their website:
 Google Chrome
 1Password
+VSCode
+iTerm 2
 
 Via App Store:
 Slack
