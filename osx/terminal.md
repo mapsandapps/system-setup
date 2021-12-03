@@ -2,6 +2,7 @@ iTerm2:
 
     install iterm2
     iTerm2 -> Preferences -> Appearance -> Dimming amount [change to desired]
+    iTerm2 -> Preferences -> Profiles -> General -> Working directory -> [Checked] Reuse previous session's directory
     iTerm2 -> Preferences -> Profiles -> Colors -> Color Presets... -> Import... -> mustard.itermcolors
     iTerm2 -> Preferences -> Profiles -> Text -> Change Font -> [*** desired font]
     iTerm2 -> Preferences -> Profiles -> Terminal -> Scrollback Buffer -> [set scrollback lines as desired]
