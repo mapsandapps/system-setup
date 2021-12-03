@@ -8,3 +8,7 @@ Zoom
 Via App Store:
 Contrast -- Color Accessibility
 Slack
+
+Via terminal:
+brew
+fish
