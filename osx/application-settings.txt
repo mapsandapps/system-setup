@@ -1,7 +1,7 @@
 Finder -> Preferences -> General -> Show these items on the desktop: -> [unchecked] External disks
 Finder -> Preferences -> General -> New Finder windows show: -> [username]
 Finder -> Preferences -> Sidebar -> [check and uncheck as desired]
-Finder -> Preferences -> Advanced -> [checked] Keep folders on top when sorting by name
+Finder -> Preferences -> Advanced -> [checked] Keep folders on top: In windows when sorting by name
 Finder -> Preferences -> Advanced -> When performing a search: -> Search the Current Folder
 Finder -> View -> Show Path Bar
 iTerm2 -> Preferences -> Profiles -> General -> Working Directory -> Reuse previous session's directory
