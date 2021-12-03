@@ -1,25 +1,23 @@
+General -> Appearance -> Auto
+General -> Show scroll bars -> Always
 Desktop & Screen Saver -> Screen Saver -> Start after: Never
 Desktop & Screen Saver -> Screen Saver -> Hot Corners -> [Top Right] -> Put Display to Sleep
 Dock -> Automatically hide and show the Dock -> [Checked]
 Mission Control -> [Unchecked] Automatically rearrange Spaces based on most recent use
+Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
 Security & Privacy -> General -> [Checked] Require password [immediately] after sleep or screen saver begins
-Notifications -> Do Not Disturb -> [Checked] When the display is sleeping
-Notifications -> Do Not Disturb -> [Checked] When mirroring to TVs and projectors
+Notifications -> Allow notifications -> [Unchecked] When the display is sleeping
+Notifications -> Allow notifications -> [Unchecked] When mirroring or sharing the display
 Notifications -> iTerm -> [Unchecked] Play sound for notifications
 Notifications -> Slack [and other apps] -> [Unchecked] Show notifications on lock screen
-Keyboard -> Keyboard -> Customize Touch Bar -> [Remove volume up/down, remove Siri]
 Keyboard -> Keyboard -> Modifier Keys -> [Map Caps Lock to Escape]
 Keyboard -> Text -> [Unchecked] Correct spelling automatically
 Keyboard -> Text -> [Unchecked] Capitalize words automatically
 Keyboard -> Text -> [Unchecked] Add period with double-space
 Keyboard -> Shortcuts -> Accessibility -> Invert colors -> [Check and map to command-Q]
-Keyboard -> Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between: All controls
-Mouse -> [Unchecked] Scroll direction: Natural
+Keyboard -> Shortcuts -> [Checked] Use keyboard navigation to move focus between controls
 Trackpad -> Point & Click -> [Unchecked] Look up & data detectors
 Trackpad -> Scroll & Zoom -> [Unchecked] Scroll direction: Natural
+Mouse -> [Unchecked] Scroll direction: Natural
 Sound -> [Checked] Play feedback when volume is changed
-Sound -> [Checked] Show volume in menu bar
-Date & Time -> Clock -> [Checked] Show date
-Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
-
-In top bar, click battery then Show Percentage
+Sound -> [Unchecked] Show Sound in menu bar
