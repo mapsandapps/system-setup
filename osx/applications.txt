@@ -1,9 +1,10 @@
 Via their website:
 Google Chrome
 1Password
-VSCode
 iTerm 2
+VSCode
+Zoom
 
 Via App Store:
-Slack
 Contrast -- Color Accessibility
+Slack
