@@ -23,3 +23,5 @@
         path = ~/.gitconfig.personal
 [init]
         defaultBranch = main
+[push]
+        autoSetupRemote = true
