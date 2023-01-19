@@ -1,24 +1,22 @@
-General -> Appearance -> Auto
-General -> Show scroll bars -> Always
-Desktop & Screen Saver -> Screen Saver -> Start after: Never
-Desktop & Screen Saver -> Screen Saver -> Hot Corners -> [Top Right] -> Put Display to Sleep
-Dock -> Automatically hide and show the Dock -> [Checked]
-Mission Control -> [Unchecked] Automatically rearrange Spaces based on most recent use
-Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
-Security & Privacy -> General -> [Checked] Require password [immediately] after sleep or screen saver begins
-Notifications -> Allow notifications -> [Unchecked] When the display is sleeping
+Notifications -> Allow notifications -> [Unchecked] When the screen is locked
 Notifications -> Allow notifications -> [Unchecked] When mirroring or sharing the display
 Notifications -> iTerm -> [Unchecked] Play sound for notifications
-Notifications -> Slack [and other apps] -> [Unchecked] Show notifications on lock screen
-Keyboard -> Keyboard -> Modifier Keys -> [Map Caps Lock to Escape]
-Keyboard -> Text -> [Unchecked] Correct spelling automatically
-Keyboard -> Text -> [Unchecked] Capitalize words automatically
-Keyboard -> Text -> [Unchecked] Add period with double-space
-Keyboard -> Shortcuts -> Accessibility -> Invert colors -> [Check and map to command-Q]
-Keyboard -> Shortcuts -> [Checked] Use keyboard navigation to move focus between controls
-Trackpad -> Point & Click -> [Unchecked] Look up & data detectors
-Trackpad -> Scroll & Zoom -> [Unchecked] Scroll direction: Natural
-Mouse -> [Unchecked] Scroll direction: Natural
-Displays -> [Unchecked] Automatically adjust brightness
 Sound -> [Checked] Play feedback when volume is changed
-Sound -> [Unchecked] Show Sound in menu bar
+Appearance -> Appearance -> Auto
+Appearance -> Show scroll bars -> Always
+Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
+Desktop & Dock -> Automatically hide and show the Dock -> [Checked]
+Desktop & Dock -> Mission Control -> [Unchecked] Automatically rearrange Spaces based on most recent use
+Desktop & Dock -> Hot Corners -> [Top Right] -> Put Display to Sleep
+Displays -> [Unchecked] Automatically adjust brightness
+Lock Screen -> Start Screen Saver when inactive -> [Set to something longer than sleep time]
+Lock Screen -> Require password after screen saver begins or display is turned off -> Immediately
+Keyboard -> Keyboard navigation -> [Checked]
+Keyboard -> Keyboard Shortcuts -> Modifier Keys -> [Map Caps Lock to Escape]
+Keyboard -> Keyboard Shortcuts -> Accessibility -> Invert colors -> [Check and map to command-Q]
+Keyboard -> Text Input -> Input Sources -> Edit -> [Unchecked] Correct spelling automatically
+Keyboard -> Text Input -> Input Sources -> Edit -> [Unchecked] Capitalize words automatically
+Keyboard -> Text Input -> Input Sources -> Edit -> [Unchecked] Add period with double-space
+Trackpad -> Point & Click -> Look up & data detectors -> Off
+Trackpad -> Scroll & Zoom -> [Unchecked] Natural scrolling
+Mouse -> [Unchecked] Natural scrolling
