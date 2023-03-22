@@ -54,28 +54,5 @@
   "workbench.sideBar.location": "right",
   "window.title": "${activeEditorLong}${separator}${rootName}",
   "workbench.editor.untitled.hint": "hidden",
-  "vsnotes.defaultNoteName": "notes",
-  "vsnotes.defaultNotePath": "/Users/shawntaylor/Development/notes",
-  "vsnotes.defaultNoteTitle": "{dt}_{title}.{ext}",
-  "vsnotes.tokens": [
-    {
-      "type": "datetime",
-      "token": "{dt}",
-      "format": "YYYYMMDD",
-      "description": "Insert formatted datetime."
-    },
-    {
-      "type": "title",
-      "token": "{title}",
-      "description": "Insert note title from input box.",
-      "format": "Untitled"
-    },
-    {
-      "type": "extension",
-      "token": "{ext}",
-      "description": "Insert file vsnotes.",
-      "format": "md"
-    }
-  ],
   "window.zoomLevel": 1
 }
