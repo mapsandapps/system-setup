@@ -1,12 +1,13 @@
 iTerm2:
 
     install iterm2
-    iTerm2 -> Preferences -> Appearance -> Dimming amount [change to desired]
-    iTerm2 -> Preferences -> Profiles -> General -> Working directory -> [Checked] Reuse previous session's directory
-    iTerm2 -> Preferences -> Profiles -> Colors -> Color Presets... -> Import... -> mustard.itermcolors
-    iTerm2 -> Preferences -> Profiles -> Text -> Change Font -> [*** desired font]
-    iTerm2 -> Preferences -> Profiles -> Terminal -> Scrollback Buffer -> [set scrollback lines as desired]
-    iTerm2 -> Preferences -> Profiles -> Advanced -> Triggers -> Edit
+    iTerm2 -> Settings -> Appearance -> Dimming amount [change to desired]
+    iTerm2 -> Settings -> Profiles -> General -> Working directory -> [Checked] Reuse previous session's directory
+    iTerm2 -> Settings -> Profiles -> Colors -> Color Presets... -> Import... -> mustard.itermcolors
+    iTerm2 -> Settings -> Profiles -> Text -> Change Font -> [*** desired font]
+    iTerm2 -> Settings -> Profiles -> Terminal -> Scrollback Buffer -> [set scrollback lines as desired]
+    iTerm2 -> Settings -> Profiles -> Terminal -> Terminal Emulation -> Report terminal type -> xterm
+    iTerm2 -> Settings -> Profiles -> Advanced -> Triggers -> Edit
         FIXME[:]* | Highlight Text | Text white | Background c0392b
         TODO[:]* | Highlight Text | Text white | Background 27ae60
         console.[A-Za-z]* | Highlight Text | Text white | Background f7c526
@@ -18,8 +19,8 @@ iTerm2:
         Tests completed successfully | Post Notification | Tests passed ✅ | [Checked] Instant
         Tests completed with [0-9]* failure\(s\) | Post Notification | Tests failed ❌ | [Checked] Instant
         Failed to compile with [0-9]* error\(s\) | Post Notification | Tests broke ⚠️ | [Checked] Instant
-    iTerm2 -> Preferences -> Keys -> [Add global shortcut key] -> Keyboard shortcut: Command Delete | Action: Send Hex Codes: 0x15
-    iTerm2 -> Preferences -> Keys -> [Add global shortcut key] -> Keyboard shortcut: Alt Delete | Action: Send Hex Codes: 0x17
+    iTerm2 -> Settings -> Keys -> [Add global shortcut key] -> Keyboard shortcut: Command Delete | Action: Send Hex Codes: 0x15
+    iTerm2 -> Settings -> Keys -> [Add global shortcut key] -> Keyboard shortcut: Alt Delete | Action: Send Hex Codes: 0x17
 
 Powerline-patched fonts:
 
