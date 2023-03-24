@@ -5,6 +5,8 @@ iTerm2:
     iTerm2 -> Settings -> Profiles -> General -> Working directory -> [Checked] Reuse previous session's directory
     iTerm2 -> Settings -> Profiles -> Colors -> Color Presets... -> Import... -> mustard.itermcolors
     iTerm2 -> Settings -> Profiles -> Text -> Change Font -> [*** desired font]
+    iTerm2 -> Settings -> Profiles -> Window -> Custom window title -> \(currentTab.currentSession.path)
+    iTerm2 -> Settings -> Profiles -> Window -> Custom tab title -> \(currentSession.path)
     iTerm2 -> Settings -> Profiles -> Terminal -> Scrollback Buffer -> [set scrollback lines as desired]
     iTerm2 -> Settings -> Profiles -> Terminal -> Terminal Emulation -> Report terminal type -> xterm
     iTerm2 -> Settings -> Profiles -> Advanced -> Triggers -> Edit
