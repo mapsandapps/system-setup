@@ -108,3 +108,10 @@ export NVM_DIR="$HOME/.nvm"
 # make nano the default editor
 export EDITOR=nano
 export VISUAL="$EDITOR"
+
+# hide the computer name from the prompt
+prompt_context() {
+  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
+  fi
+}
