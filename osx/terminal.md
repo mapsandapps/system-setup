@@ -1,10 +1,30 @@
+Powerline-patched fonts:
+
+    git clone https://github.com/powerline/fonts.git
+    cd fonts
+    ./install.sh
+    cd ../
+    rm -r fonts/
+    
+    OR
+    
+    just install via FontBook from the URL, e.g. https://github.com/powerline/fonts/tree/master/Hack
+    
+    THEN
+    
+
+Oh My Zsh:
+
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    
 iTerm2:
 
     install iterm2
     iTerm2 -> Settings -> Appearance -> Dimming amount [change to desired]
     iTerm2 -> Settings -> Profiles -> General -> Working directory -> [Checked] Reuse previous session's directory
-    iTerm2 -> Settings -> Profiles -> Colors -> Color Presets... -> Import... -> mustard.itermcolors
-    iTerm2 -> Settings -> Profiles -> Text -> Change Font -> [*** desired font]
+    iTerm2 -> Settings -> Profiles -> Colors -> Color Presets... -> Import... -> Popping and Locking
+    iTerm2 -> Settings -> Profiles -> Text -> [Checked] Use built-in Powerline glyphs
+    iTerm2 -> Settings -> Profiles -> Text -> Font -> Hack
     iTerm2 -> Settings -> Profiles -> Window -> Custom window title -> \(currentTab.currentSession.path)
     iTerm2 -> Settings -> Profiles -> Window -> Custom tab title -> \(currentSession.path)
     iTerm2 -> Settings -> Profiles -> Terminal -> Scrollback Buffer -> [set scrollback lines as desired]
@@ -23,30 +43,3 @@ iTerm2:
         Failed to compile with [0-9]* error\(s\) | Post Notification | Tests broke ⚠️ | [Checked] Instant
     iTerm2 -> Settings -> Keys -> [Add global shortcut key] -> Keyboard shortcut: Command Delete | Action: Send Hex Codes: 0x15
     iTerm2 -> Settings -> Keys -> [Add global shortcut key] -> Keyboard shortcut: Alt Delete | Action: Send Hex Codes: 0x17
-
-Powerline-patched fonts:
-
-    git clone https://github.com/powerline/fonts.git
-    cd fonts
-    ./install.sh
-    cd ../
-    rm -r fonts/
-
-fish:
-
-    sudo nano /etc/shells
-    [add /usr/local/bin/fish to the top of the list]
-    chsh -s /usr/local/bin/fish
-
-Oh My Fish:
-
-    curl -L https://get.oh-my.fish | fish
-
-    theme & color scheme & font sets:
-    mars          mustard   any
-    shellder      mustard   hack (powerline-patched)
-    technopagan   mustard   any
-
-    omf install [theme]
-    iTerm2 -> Preferences -> Profiles -> Text -> Change Font -> [font of choice]
-    iTerm2 -> Preferences -> Profiles -> Colors -> Color Presets... -> Import... -> mustard.itermcolors
