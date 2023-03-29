@@ -1,7 +1,7 @@
 Via their website:
 Google Chrome
 1Password
-iTerm 2
+iTerm
 VSCode
 Zoom
 
@@ -11,6 +11,5 @@ Slack
 
 Via terminal:
 brew
-fish
 nvm
 yarn

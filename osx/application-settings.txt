@@ -4,6 +4,5 @@ Finder -> Preferences -> Sidebar -> [check and uncheck as desired]
 Finder -> Preferences -> Advanced -> [checked] Keep folders on top: In windows when sorting by name
 Finder -> Preferences -> Advanced -> When performing a search: -> Search the Current Folder
 Finder -> View -> Show Path Bar
-iTerm2 -> Preferences -> Profiles -> General -> Working Directory -> Reuse previous session's directory
 iTunes -> Preferences -> Devices -> [checked] Prevent iPods, iPhones, and iPads from syncing automatically
 [After installing fish] Terminal -> Preferences -> General -> Shells open with -> [selected] Command -> `/usr/local/bin/fish`
