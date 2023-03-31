@@ -6,6 +6,7 @@ Appearance -> Appearance -> Auto
 Appearance -> Show scroll bars -> Always
 Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
 Desktop & Dock -> Automatically hide and show the Dock -> [Checked]
+Desktop & Dock -> Show recent applications in Dock -> [Unchecked]
 Desktop & Dock -> Mission Control -> [Unchecked] Automatically rearrange Spaces based on most recent use
 Desktop & Dock -> Hot Corners -> [Top Right] -> Put Display to Sleep
 Displays -> Scale resolution to one to the left of "Default" (towards "Larger Text")
