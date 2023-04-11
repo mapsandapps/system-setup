@@ -5,6 +5,8 @@ Sound -> [Checked] Play feedback when volume is changed
 Appearance -> Appearance -> Auto
 Appearance -> Show scroll bars -> Always
 Accessibility -> Display -> [Unchecked] Shake mouse pointer to locate
+Control Center -> Battery -> [Checked] Show percentage
+Control Center -> Spotlight -> Don't show in menu bar
 Desktop & Dock -> Automatically hide and show the Dock -> [Checked]
 Desktop & Dock -> Show recent applications in Dock -> [Unchecked]
 Desktop & Dock -> Mission Control -> [Unchecked] Automatically rearrange Spaces based on most recent use
