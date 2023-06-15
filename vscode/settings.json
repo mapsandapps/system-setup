@@ -54,5 +54,45 @@
   "workbench.sideBar.location": "right",
   "window.title": "${activeEditorLong}${separator}${rootName}",
   "workbench.editor.untitled.hint": "hidden",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "git.autofetch": true,
+  "editor.inlineSuggest.enabled": true,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO or TODO:", // with a regex pattern defined, this setting isn't used, but is useful as a name for this section
+      "regex": {
+        "pattern": "TODO[:]?"
+      },
+      "color": "white",
+      "backgroundColor": "#27ae60", // NOTE: these colors are from https://flatuicolors.com/palette/defo
+      "overviewRulerColor": "white"
+    },
+    {
+      "text": "FIXME or FIXME:", // with a regex pattern defined, this setting isn't used, but is useful as a name for this section
+      "regex": {
+        "pattern": "FIXME[:]?"
+      },
+      "color": "white",
+      "backgroundColor": "#c0392b",
+      "overviewRulerColor": "white"
+    },
+    {
+      "text": "NOTE or NOTE:", // with a regex pattern defined, this setting isn't used, but is useful as a name for this section
+      "regex": {
+        "pattern": "NOTE[:]?"
+      },
+      "color": "white",
+      "backgroundColor": "#2980b9",
+      "overviewRulerColor": "white"
+    },
+    {
+      "text": "QUESTION or QUESTION:", // with a regex pattern defined, this setting isn't used, but is useful as a name for this section
+      "regex": {
+        "pattern": "QUESTION[:]?"
+      },
+      "color": "white",
+      "backgroundColor": "#2980b9",
+      "overviewRulerColor": "white"
+    }
+  ]
 }
