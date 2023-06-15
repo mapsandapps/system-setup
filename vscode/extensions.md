@@ -8,7 +8,7 @@
 * Lorem ipsum
 * MDX
 * Prettier - Code formatter
-* TODO Highlight
+* TODO Highlight v2
 * vscode-faker
 * vscode-icons
 * vscode-input-sequence
