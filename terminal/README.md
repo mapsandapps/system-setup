@@ -1,3 +1,5 @@
+Import the settings plist by going to iTerm2 -> Settings -> General -> Preferences -> Load preferences from a custom folder or URL
+
 Powerline-patched fonts:
 
     git clone https://github.com/powerline/fonts.git
