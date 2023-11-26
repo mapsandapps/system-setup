@@ -1,8 +1,11 @@
-Finder -> Preferences -> General -> Show these items on the desktop: -> [unchecked] External disks
-Finder -> Preferences -> General -> New Finder windows show: -> [username]
-Finder -> Preferences -> Sidebar -> [check and uncheck as desired]
-Finder -> Preferences -> Advanced -> [checked] Keep folders on top: In windows when sorting by name
-Finder -> Preferences -> Advanced -> When performing a search: -> Search the Current Folder
+Finder -> Settings -> General -> Show these items on the desktop: -> [unchecked] External disks
+Finder -> Settings -> General -> New Finder windows show: -> [username]
+Finder -> Settings -> Sidebar -> [check and uncheck as desired]
+Finder -> Settings -> Advanced -> [checked] Keep folders on top: In windows when sorting by name
+Finder -> Settings -> Advanced -> When performing a search: -> Search the Current Folder
 Finder -> View -> Show Path Bar
 iTunes -> Preferences -> Devices -> [checked] Prevent iPods, iPhones, and iPads from syncing automatically
 [After installing fish] Terminal -> Preferences -> General -> Shells open with -> [selected] Command -> `/usr/local/bin/fish`
+
+To show dotfiles in Finder, run this in the terminal, then relaunch Finder:
+`defaults write com.apple.finder AppleShowAllFiles YES`
