@@ -9,6 +9,9 @@
         st = "!git fetch; git status"
         ds = diff --staged
         dc = show
+        ignore = update-index --skip-worktree
+        unignore = update-index --no-skip-worktree
+        ignored = !git ls-files -v | grep '^S'
 [core]
         excludesfile = /Users/shawntaylor/.gitignore_global
         editor = nano
